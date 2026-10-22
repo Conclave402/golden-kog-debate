@@ -1,0 +1,8 @@
+golden-kog-debate
+Copyright 2026 Conclave (pickle-05)
+
+The debate pattern of this module is adapted from TradingAgents
+(TauricResearch, https://github.com/TauricResearch/TradingAgents),
+which is distributed under the Apache License, Version 2.0.
+The trader and the portfolio manager of that project are deliberately absent:
+this module is a risk tool, not a trading tool.

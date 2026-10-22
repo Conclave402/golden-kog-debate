@@ -1,0 +1,23 @@
+{
+  "name": "golden-kog-debate",
+  "version": "1.0.0",
+  "description": "Two sided token structure debate for a risk analysis. Risk only, never a trading view.",
+  "license": "Apache-2.0",
+  "main": "./dist/debate.js",
+  "types": "./dist/debate.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
